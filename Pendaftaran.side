@@ -1,0 +1,321 @@
+{
+  "id": "982af3dc-327d-450d-af3d-740f199e36e1",
+  "version": "2.0",
+  "name": "Pendaftaran",
+  "url": "http://tester1.test.apps360.id",
+  "tests": [{
+    "id": "0c07def5-d2e4-43a9-bc1c-dde913c4f7d4",
+    "name": "Test_input_form",
+    "commands": [{
+      "id": "0fddb862-079d-4fbf-b323-2bdfd94be3cb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9910d3d-9438-4c0a-9fb6-9940a74f790b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "750x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a83c169c-f5fa-4a42-ad85-837a8f88eb2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60982339-5a8c-45be-ae7d-f80831cca973",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Stefanie Oktafia Hartono"
+    }, {
+      "id": "03999d8c-6021-4612-a445-b175ea686be0",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af0fe06e-74d3-45ef-b2ce-0696a740fd2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "stefanieoktafia@student.telkomuniversity.ac.id"
+    }, {
+      "id": "507d9ba7-28fb-4e2c-9c79-db53973e5298",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "858fcd55-5b15-499f-bc11-91cb7a644f8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "082268629984"
+    }, {
+      "id": "5fe179f4-3758-4adc-8a3c-8a82e157cb60",
+      "comment": "",
+      "command": "click",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//textarea[@id='description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb135c65-894f-4bec-9757-a1cd407eb177",
+      "comment": "",
+      "command": "type",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//textarea[@id='description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hello"
+    }, {
+      "id": "f07e5e4b-deb1-47ff-9301-c75d6e1ac26b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group",
+      "targets": [
+        ["css=.group", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a9444cf-ce67-4396-91cf-e4ebb8789fd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://offdeck.telkomsel.com:1443/pubjs/close.png')]", "xpath:img"],
+        ["xpath=//div[@id='sb98124_close']/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fbb1f94-e03c-4747-b6c5-8b1cb1f6c14b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c02bb33-67ae-46a0-9383-0836dc43fa2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ac39c8-eb4e-4b2b-90f3-a376cb7f94b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Stefanie Oktafia Hartono"
+    }, {
+      "id": "74fc36e7-86c4-4469-a0ef-f5a80615b254",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1af7a4d-8a8d-4331-a48d-2915802d819f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "stefanieoktafia@student.telkomuniversity.ac.id"
+    }, {
+      "id": "859cf580-3e98-4ea2-a579-bdbf15953470",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88495194-9638-4438-a97f-fbac04d6b97d",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "082268629984"
+    }, {
+      "id": "8a134b00-8eb8-4237-ad1a-94ee0f6fc567",
+      "comment": "",
+      "command": "click",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//textarea[@id='description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc33bc06-f71a-4c6b-8cc3-7df32d1dac3e",
+      "comment": "",
+      "command": "type",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//textarea[@id='description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "hello"
+    }, {
+      "id": "55f892ff-2548-42d6-a4d7-313433c8209a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group",
+      "targets": [
+        ["css=.group", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8fd522f-239c-467b-be47-eaa5dda96b77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.font-semibold",
+      "targets": [
+        ["css=.font-semibold", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Welcome to the club!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5a21794-be9a-460b-a7a0-0b5efbc9c0ec",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.font-semibold",
+      "targets": [
+        ["css=.font-semibold", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Welcome to the club!')]", "xpath:innerText"]
+      ],
+      "value": "Welcome to the club!"
+    }, {
+      "id": "22a8c7ec-0954-4464-9eb2-dde9423f96b6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.font-semibold",
+      "targets": [
+        ["css=.font-semibold", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Welcome to the club!')]", "xpath:innerText"]
+      ],
+      "value": "Welcome to the club!"
+    }]
+  }],
+  "suites": [{
+    "id": "62b38817-b2c5-4395-89e7-e66c2bb6a99d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0c07def5-d2e4-43a9-bc1c-dde913c4f7d4"]
+  }],
+  "urls": ["http://tester1.test.apps360.id/"],
+  "plugins": []
+}
